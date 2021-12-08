@@ -21,11 +21,11 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/titleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="16dp"
         android:text="@string/math_quiz"
-        style="@style/titleTextStyle"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewStartQuiz"
         app:layout_constraintStart_toEndOf="@+id/imageViewStartQuiz"
         app:layout_constraintTop_toTopOf="@+id/imageViewStartQuiz" />
@@ -77,6 +77,8 @@
         android:imeOptions="actionDone"
         android:singleLine="true"
         android:text="@string/next"
+        android:textColor="#FFEC2D"
+        app:backgroundTint="#00ABC2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayoutEnterAnswerMath"
         app:layout_constraintStart_toStartOf="@+id/textInputLayoutEnterAnswerMath" />
@@ -93,7 +95,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textInputLayoutEnterAnswerMath"
         app:layout_constraintStart_toStartOf="@+id/textInputLayoutEnterAnswerMath"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEnterAnswerMath"
-        tools:text="Current Question: 2" />
+        tools:text="Текущий вопрос: 2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

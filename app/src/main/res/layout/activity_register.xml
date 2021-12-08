@@ -99,6 +99,8 @@
         android:layout_width="0dp"
         android:layout_marginTop="24dp"
         android:text="@string/create"
+        android:textColor="#FFEC2D"
+        app:backgroundTint="#00ABC2"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayoutPasswordRegister"
         app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="@+id/textInputLayoutPasswordRegister"

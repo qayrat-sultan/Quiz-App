@@ -104,14 +104,15 @@
 
     <TextView
         android:id="@+id/textView16"
+        style="@style/text_value_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        tools:text="Math"
-        style="@style/text_value_heading"
+        android:textColor="#00ABC2"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        tools:text="Math" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnFinishQuiz"
@@ -120,53 +121,61 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="40dp"
+        android:autoText="true"
         android:imeOptions="actionDone"
         android:singleLine="true"
         android:text="@string/start_again"
+        android:textColor="#FFEC2D"
+        app:backgroundTint="#00ABC2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView19"
+        style="@style/text_value_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="3"
-        style="@style/text_value_heading"
+        android:textColor="#00ABC2"
         app:layout_constraintBottom_toBottomOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="@+id/textView16"
-        app:layout_constraintTop_toTopOf="@+id/textView11" />
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        tools:text="3" />
 
     <TextView
         android:id="@+id/textView27"
+        style="@style/text_value_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="2"
-        style="@style/text_value_heading"
+        android:textColor="#00ABC2"
         app:layout_constraintBottom_toBottomOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="@+id/textView19"
-        app:layout_constraintTop_toTopOf="@+id/textView12" />
+        app:layout_constraintTop_toTopOf="@+id/textView12"
+        tools:text="2" />
 
     <TextView
         android:id="@+id/textView28"
+        style="@style/text_value_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        tools:text="20"
-        style="@style/text_value_heading"
+        android:textColor="#00ABC2"
         app:layout_constraintBottom_toBottomOf="@+id/textView13"
         app:layout_constraintStart_toStartOf="@+id/textView27"
-        app:layout_constraintTop_toTopOf="@+id/textView13" />
+        app:layout_constraintTop_toTopOf="@+id/textView13"
+        tools:text="20" />
 
     <TextView
         android:id="@+id/textView29"
+        style="@style/text_value_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="60"
-        style="@style/text_value_heading"
+        android:textColor="#00ABC2"
+        android:textColorHighlight="#FFFFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/textView14"
         app:layout_constraintStart_toStartOf="@+id/textView28"
-        app:layout_constraintTop_toTopOf="@+id/textView14" />
+        app:layout_constraintTop_toTopOf="@+id/textView14"
+        tools:text="60" />
 
     <TextView
         android:id="@+id/textView30"
@@ -174,6 +183,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
+        android:textColor="#00ABC2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView29"
         app:layout_constraintTop_toTopOf="@+id/textView15"

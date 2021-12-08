@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.QuizForFun" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/peach</item>
-        <item name="colorPrimaryVariant">@color/peach</item>
+        <item name="colorPrimary">#00ABC2</item>
+        <item name="colorPrimaryVariant">#00ABC2</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
@@ -36,17 +36,17 @@
     </style>
 
     <style name="MyAppearance" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">@color/peach</item>
+        <item name="android:textColor">#00ABC2</item>
     </style>
 
     <style name="edtTextInputStyle" parent="Widget.AppCompat.EditText">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/peach</item>
-        <item name="hintTextColor">@color/peach</item>
+        <item name="android:textColor">#00ABC2</item>
+        <item name="hintTextColor">#00ABC2</item>
     </style>
 
     <style name="btnStyle" parent="Widget.MaterialComponents.Button">
-        <item name="backgroundTint">@color/peach</item>
+        <item name="backgroundTint">#00ABC2</item>
         <item name="cornerRadius">@dimen/btn_radius</item>
         <item name="android:layout_height">@dimen/btn_height</item>
     </style>
@@ -77,14 +77,14 @@
 
     <style name="text_value_heading">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@color/peach</item>
+        <item name="android:textColor">#00ABC2</item>
     </style>
 
 
     <style name="text_radio_button_answer">
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/black</item>
-        <item name="buttonTint">@color/peach</item>
+        <item name="buttonTint">#00ABC2</item>
     </style>
 
 

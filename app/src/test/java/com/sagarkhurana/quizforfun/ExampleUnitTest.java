@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.qayratsultan.quizforfun;
 
 import org.junit.Test;
 
