@@ -4,10 +4,9 @@
 
 ## ❤️ Попробуйте приложение 
 ## Сканируйте QR-код 
- <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qrCodeForApk.png"
-width="200" height="200"> 
+ ![Imgur](screenshots/qrCodeForApk.png)
 ---------------
-### Get Apk [Download here](https://raw.githubusercontent.com/pikachu404/Quiz-App/master/app/release/app-release.apk)
+### Get Apk [Скачать тут](https://qrco.de/bccMV7)
 ------------
 ## ⚙️ Функции 
 * Приложение состоит из викторины по трем основным предметам - математика, география, литература.
@@ -20,7 +19,7 @@ width="200" height="200">
 
 ## 🚀 Используемая технология 
 
-* Quiz App is build using Java
+* Quiz App сделан на Java
 * Asynctask for asynchronous
 * Room Persistence Library
 
