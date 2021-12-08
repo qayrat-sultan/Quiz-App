@@ -4,7 +4,8 @@
 
 ## ❤️ Попробуйте приложение 
 ## Сканируйте QR-код 
- ![Imgur](screenshots/qrCodeForApk.png)
+ <img src="https://raw.githubusercontent.com/qayrat-sultan/Quiz-App/master/screenshots/qrCodeForApk.png"
+width="200" height="200"> 
 ---------------
 ### Get Apk [Скачать тут](https://qrco.de/bccMV7)
 ------------
