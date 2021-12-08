@@ -1,65 +1,59 @@
-## Quiz App
-A Quiz Android application 📱 built using Java ♨️ and showing best practices of 🛠️ Room
+## Приложение для викторины 
+Приложение Quiz для Android 📱 созданное с использованием Java ♨️ и демонстрирующее передовой опыт 🛠️ Room 
 -------------------
 
-## ❤️ Try App
-## Scan QR Code
+## ❤️ Попробуйте приложение 
+## Сканируйте QR-код 
  <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qrCodeForApk.png"
 width="200" height="200"> 
 ---------------
 ### Get Apk [Download here](https://raw.githubusercontent.com/pikachu404/Quiz-App/master/app/release/app-release.apk)
 ------------
-## ⚙️ Features
-* App consists of Quiz of primarily three subject - Maths, Geography, Literature
-* Maintaining history of previous attempts of quiz using Room.
-* You can switch users using the Login/Register
-* Feature to change to your current password
-* Added loader while data is being fetched from API
-* Showing the result at the end the Quiz.
-* Implemented login, register,edit password, previous attempts all using SQL Lite DB using Room 
+## ⚙️ Функции 
+* Приложение состоит из викторины по трем основным предметам - математика, география, литература.
+* Сохранение истории предыдущих попыток викторины с использованием комнаты.
+* Вы можете переключать пользователей, используя Вход / Регистрация
+* Возможность изменить текущий пароль
+* Добавлен загрузчик при извлечении данных из API
+* Отображение результата в конце викторины.
+* Реализован вход, регистрация, изменение пароля, предыдущие попытки - все с использованием SQL Lite DB с использованием Room 
 
-## 🚀 Technology Used
+## 🚀 Используемая технология 
 
 * Quiz App is build using Java
 * Asynctask for asynchronous
 * Room Persistence Library
 
-## 📸 Screenshots
+## 📸 Скриншоты
 
 ||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
 | ![Imgur](screenshots/0.png) | ![Imgur](screenshots/1.png) | ![Imgur](screenshots/2.png) |
 | ![Imgur](screenshots/3.png) | ![Imgur](screenshots/4.png) | ![Imgur](screenshots/5.png) |
-| ![Imgur](screenshots/6.png) | ![Imgur](screenshots/7.png) | ![Imgur](screenshots/8.png) |
-| ![Imgur](screenshots/9.png) | ![Imgur](screenshots/9.png) | ![Imgur](screenshots/10.png) |
+| ![Imgur](screenshots/6.png) | ![Imgur](screenshots/7.png) | ![Imgur](screenshots/3.png) |
 
-## ⚡ Dependencies Used
-```sh
-* Room Persistence Library 2.2.5
-* Gson 2.8.6
+
+## Лицензия
 ```
+Лицензия MIT
 
-## License
-```
-MIT License
+Copyright (c) 2021 Сагар Хурана
 
-Copyright (c) 2021 Sagar Khurana
+Разрешение предоставляется бесплатно любому лицу, получившему копию.
+этого программного обеспечения и связанных файлов документации («Программное обеспечение») для работы с
+в Программном обеспечении без ограничений, включая, помимо прочего, права
+использовать, копировать, изменять, объединять, публиковать, распространять, сублицензировать и / или продавать
+копий Программного обеспечения и разрешить лицам, которым Программное обеспечение
+предоставлены для этого при соблюдении следующих условий:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Вышеупомянутое уведомление об авторских правах и это уведомление о разрешении должны быть включены во все
+копии или существенные части Программного обеспечения.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ЯВНЫХ.
+ПОДРАЗУМЕВАЕМЫЕ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ГАРАНТИИ КОММЕРЧЕСКОЙ ЦЕННОСТИ,
+ПРИГОДНОСТЬ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ И ЗАЩИТА ОТ ПРАВ. НИ В КОЕМ СЛУЧАЕ
+АВТОРЫ ИЛИ ДЕРЖАТЕЛИ АВТОРСКИХ ПРАВ НЕСУТ ОТВЕТСТВЕННОСТЬ ЗА ЛЮБЫЕ ПРЕТЕНЗИИ, УБЫТКИ ИЛИ ДРУГИЕ
+ОТВЕТСТВЕННОСТЬ, ВОЗНИКАЮЩАЯ ЛИ В РЕЗУЛЬТАТЕ ДОГОВОРА, ПРАКТИКИ ИЛИ ИНЫМ ОБРАЗОМ,
+БЕЗ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ В СВЯЗИ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ, ИЛИ ИСПОЛЬЗОВАНИЕМ ИЛИ ДРУГИМИ ДЕЛАМИ
+ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ. 
 ```
